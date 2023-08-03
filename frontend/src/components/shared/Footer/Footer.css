@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    list-style-type: none; 
+    justify-content: space-between;
+    gap: 20px;
+}

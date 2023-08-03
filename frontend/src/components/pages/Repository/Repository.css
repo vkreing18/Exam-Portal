@@ -1,0 +1,9 @@
+label {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  #upload {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+  }

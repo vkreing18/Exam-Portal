@@ -1,0 +1,57 @@
+.start_btn,
+.info-box,
+.quiz_box,
+.result_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.start_btn .start{
+  font-size: 25px;
+  font-weight: 500;
+  color: #945ddb;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.infoBox{
+  margin-top: 180px;
+  margin-left: 400px;
+  width: 540px;
+  background: #fff;
+  border-radius: 5px;
+  opacity: 100;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.info-title{
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+ .info-list{
+  padding: 15px 30px;
+}
+
+.info{
+  margin: 5px 0;
+  font-size: 17px;
+}
+
